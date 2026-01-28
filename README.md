@@ -34,7 +34,7 @@ go install .
 ## Usage
 
 > [!CAUTION]
-> Do not send ERC-20 or other tokens to the L2StandardBridge, only native ETH is supported.
+> Don't send ERC-20 or other tokens to the L2StandardBridge, only native ETH is supported.
 
 ### Without Fault Proofs
 
@@ -72,7 +72,7 @@ _Note: this can be called from any L1 address, it does not have to be the same a
 
 #### Step 3
 
-After the finalization period, finalize your withdrawal (same command as above):
+After the finalization period, finalize your withdrawals (same command as above):
 
 ```
 withdrawer --network base-mainnet --withdrawal <withdrawal tx hash> --rpc <L1 RPC URL> --private-key <L1 private key>
